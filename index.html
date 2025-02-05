@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Ejercicios Js</title>
+	<meta charset="utf-8"> 
+</head>
+<body>
+	<form>
+	<input type="text" value="12" id="campo">
+</form>
+<script>
+
+
+	var libro = {
+		titulo: 'Las Legiones Maldita',
+		autor: 'Santiago Posteguillo',
+		informacion:function(){
+			return this.titulo + " escrito por " + this.autor;
+		}
+	}
+	console.log(typeof libro.informacion());
+	
+	/*
+function campo(){
+	document.getElementById("#campo").value;
+	console.log(campo());
+}
+*/
+
+/*
+
+	let intentos = [1,5,10,12];
+	console.log(intentos[4]);
+
+*/
+
+	/*
+	let siglas = [
+		'fmi',
+		'bid',
+		['onu', 'unesco'],
+		'birf'
+	];
+	console.log(siglas[2][1]);
+	*/
+/*
+	let numeros = [5,5,[3,4,[5,6],7]];
+	console.log(numeros[2][2][1]);
+	*/
+/*
+	let paises = [['mx','ca'],'es'];
+	console.log(paises[0][0][0]);
+	*/
+</script>
+</body>
+</html>
